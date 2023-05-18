@@ -9,6 +9,7 @@ content = response.text
 status_code = response.status_code
 headers = response.headers
 f = open("mplus.txt","a")
+open("mplus.txt", 'w')
 f.write(content)
 f.close()
 
